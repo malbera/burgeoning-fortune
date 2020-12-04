@@ -15,4 +15,10 @@ java -jar burgeoning-fortune.jar $currency $file_path
     * crypto can repeat, it will be summed in the end
     * delimiter is "=" e.g BTC=123
     * if there is corrupted wallet file, exception will be thrown on REST call or reading file
-
+   
+#### TODO:
+- Ask Bob to migrate to Java 11+
+- With Java 11 migrate to HttpClient for rest calls
+- Add mockito for better testing
+- Add lombock to reduce boilerplate code
+- Think about caching rest api (cryptocompare.com has 10s)
